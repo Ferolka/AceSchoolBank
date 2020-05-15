@@ -1,0 +1,4 @@
+/node_modules
+/lib/db.js
+/.idea
+/bin/report.*.json

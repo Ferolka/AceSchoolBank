@@ -1,0 +1,14 @@
+{
+  "name": "aceschoolbank",
+  "version": "1.0.0",
+  "description": "This is bank for virtual money of students in Ace School",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "author": "Andry Kovalenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
