@@ -3,12 +3,25 @@
   "version": "1.0.0",
   "description": "This is bank for virtual money of students in Ace School",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ferolka/AceSchoolBank.git"
+  },
   "scripts": {
     "start": "node ./bin/server"
   },
   "author": "Andry Kovalenko",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "connect-redis": "^4.0.4",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "flash": "^1.1.0",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "redis": "^3.0.2"
   }
 }

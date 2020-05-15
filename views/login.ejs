@@ -1,0 +1,46 @@
+<head>
+    <link rel='stylesheet' href='/stylesheets/login.css'/>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="223029946083-nr10c3gftf6b9nb396a3hldf8g9lvkou.apps.googleusercontent.com">
+</head>
+<script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+    }
+</script>
+<body>
+<div class="login">
+    <div class="heading">
+        <h2>Sign in</h2>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <form action="/authorisation" method="post">
+
+            <div class="">
+                <span class=""><i class=""></i></span>
+                <input type="text" class="input-login" placeholder="Username or email">
+            </div>
+
+            <div class="input-group input-group-lg">
+                <span class=""><i class="fa fa-lock"></i></span>
+                <input type="password" class="input-login" placeholder="Password">
+            </div>
+
+            <button type="submit" class="float">Login</button>
+        </form>
+    </div>
+    <a href="#" onclick="signOut();">Sign out</a>
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+    </script>
+</div>
+</body>
