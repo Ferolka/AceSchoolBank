@@ -10,7 +10,8 @@ var session = require('express-session');
 
 
 var indexRouter = require('./routes/index');
-
+var adminRouter = require('./routes/admin');
+var userRouter = require('./routes/user');
 
 var app = express();
 
@@ -30,11 +31,13 @@ app.use(session({
     saveUninitialized: true,
     resave: 'true',
     secret: 'secret'
-}))
+}));
 
 app.use(flash());
 
 app.use('/', indexRouter);
+app.use('/admin', adminRouter);
+app.use('/user',userRouter);
 
 
 // catch 404 and forward to error handler

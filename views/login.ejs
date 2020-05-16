@@ -1,5 +1,7 @@
+<!doctype html>
+<html lang="en">
 <head>
-    <link rel='stylesheet' href='/stylesheets/login.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id" content="223029946083-nr10c3gftf6b9nb396a3hldf8g9lvkou.apps.googleusercontent.com">
 </head>
@@ -14,26 +16,24 @@
     }
 </script>
 <body>
+<% if (messages.success) { %>
+    <div class="alert alert-success" role="alert"><%- messages.success %></div>
+<% } %>
+
+<% if (messages.error) { %>
+    <div class="alert alert-danger" role="alert"><%- messages.error %></div>
+<% } %>
 <div class="login">
-    <div class="heading">
-        <h2>Sign in</h2>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        <form action="/authorisation" method="post">
 
-            <div class="">
-                <span class=""><i class=""></i></span>
-                <input type="text" class="input-login" placeholder="Username or email">
-            </div>
+<form class="box" action="index.html" method="post">
+    <h1>Login</h1>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <input type="text" name="" placeholder="Username">
+    <input type="password" name="" placeholder="Password">
+    <input type="submit" name="" value="Login">
+</form>
 
-            <div class="input-group input-group-lg">
-                <span class=""><i class="fa fa-lock"></i></span>
-                <input type="password" class="input-login" placeholder="Password">
-            </div>
-
-            <button type="submit" class="float">Login</button>
-        </form>
-    </div>
-    <a href="#" onclick="signOut();">Sign out</a>
+    <a href="#" onclick="signOut();" style="color: aliceblue; display: block">Sign out</a>
     <script>
         function signOut() {
             var auth2 = gapi.auth2.getAuthInstance();
