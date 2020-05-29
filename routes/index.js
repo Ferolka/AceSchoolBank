@@ -1,10 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const dbConn = require('../lib/db');
+var dbConn = require('../lib/db');
+// const conn  = require('../lib/db');
+// var dbConn = conn.getConnection();
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const accessTokenSecret = 'MamamiaOhmyGOD';
 const auth = require('./authentification');
+const log = require('./log');
 // display books page
 router.get('/', function(req, res, next) {
     // const saltRounds = 10;
@@ -14,14 +17,20 @@ router.get('/', function(req, res, next) {
     //     });
     // });
     //
-    //const hash = bcrypt.hashSync('1234', 10);
-   // console.log('Password1= ' + bcrypt.compareSync('1234', hash)+"   "+hash);
+    const hash = bcrypt.hashSync('Employee2020!', 10);
+    console.log('Password1= ' + bcrypt.compareSync('Employee2020!', hash)+"   "+hash);
     res.render('login.ejs');
 });
 router.post('/authorisation', function (req, res) {
     const {login, password} = req.body;
     let query = dbConn.query('SELECT * FROM teams WHERE team_email = \'' + login + '\'', function (err, rows) {
         if (err) {
+            if (err.message == 'Can\'t add new command when connection is in closed state') { // <---- Insert in '' the error code, you need to find out
+                // Connection timeout, no further action (no throw)
+                dbConn.connect();
+                //return;
+            }
+            log.warn("Incorrect login = "+login+""+" ip= "+req.connection.remoteAddress);
             req.flash('error', err.message);
             res.render('login');
         } else if (rows.length !== 0 && bcrypt.compareSync(password, rows[0].team_password)) {
@@ -31,10 +40,11 @@ router.post('/authorisation', function (req, res) {
             // res.json({
             //     accessToken
             // });
-
+            dbConn.end();
             res.cookie('token', accessToken);
             res.redirect('/mainMenu');
         } else {
+            log.warn("Incorrect login = "+login+""+" ip= "+req.connection.remoteAddress);
             req.flash('error', 'Username or password incorrect');
             res.render('login');
         }
@@ -64,7 +74,7 @@ router.get('/mainMenu',auth, function (req, res, next) {
         return res.redirect('/admin');
     }
     if (req.team.status === 0){
-        return res.redirect('/user/'+req.team.team_id)
+        return res.redirect('/team/'+req.team.team_id)
     }
     return res.status(403).send('Error in /mainMenu get');
 });

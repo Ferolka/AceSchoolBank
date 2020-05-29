@@ -2,66 +2,29 @@
 <html lang="en">
 <head>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="223029946083-nr10c3gftf6b9nb396a3hldf8g9lvkou.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<script>
-    function onSignIn(googleUser) {
-        var profile = googleUser.getBasicProfile();
 
-        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-        console.log('Name: ' + profile.getName());
-        console.log('Image URL: ' + profile.getImageUrl());
-        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-    }
-</script>
 <body>
 <% if (messages.success) { %>
     <div class="alert alert-success" role="alert"><%- messages.success %></div>
 <% } %>
 
 <% if (messages.error) { %>
-    <div class="alert alert-danger" role="alert"><%- messages.error %></div>
+    <div class="alert-danger" role="alert"><%- messages.error %></div>
 <% } %>
 <div class="login">
 
-<form class="box needs-validation" action="/authorisation" method="post">
-    <h1>Login</h1>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+<form class="box" action="/authorisation" method="post">
+    <h1>ACE BANK</h1>
+    <img src="/images/aceTree.jpg" class="img-fluid logo" alt="Logo">
     <input type="text" name="login" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
     <input type="submit" name="" value="Login">
 </form>
 
-    <a href="#" onclick="signOut();" style="color: aliceblue; display: block">Sign out</a>
-    <script>
-        function signOut() {
-            var auth2 = gapi.auth2.getAuthInstance();
-            auth2.signOut().then(function () {
-                console.log('User signed out.');
-            });
-        }
-    </script>
+
 </div>
-<script>
-    // Disable form submissions if there are invalid fields
-    (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-            // Get the forms we want to add validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-                form.addEventListener('submit', function(event) {
-                    if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        }, false);
-    })();
-</script>
+
 </body>
 </html>

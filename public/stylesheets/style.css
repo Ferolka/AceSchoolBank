@@ -3,6 +3,10 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: #377a47;
+    width:100%;
+}
+html{
+    width: 100%;
 }
 .box{
     width: 300px;
@@ -63,3 +67,24 @@ body{
 .login{
     text-align: center;
 }
+.alert-danger {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    text-align: center;
+}
+.logo{
+    width: 250px;
+    border-radius: 24px;
+}
+.divider{
+    margin: 5rem 0;
+    margin-top: 5rem;
+    margin-right: 0px;
+    margin-bottom: 5rem;
+    margin-left: 0px;
+}
+

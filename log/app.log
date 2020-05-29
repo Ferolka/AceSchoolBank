@@ -1,0 +1,318 @@
+[2020-05-22T17:43:12.284] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-22T17:43:12.463] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-22T18:13:22.558] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-22T18:13:22.717] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-22T18:22:21.944] [INFO] Ace - Trying to get not existed route /teamg ip= ::1
+[2020-05-22T18:24:42.107] [INFO] Ace - Trying to get not existed route /teamg ip= ::1
+[2020-05-25T10:05:03.811] [INFO] Ace - Trying to get not existed route /favicon.ico ip= ::1
+[2020-05-25T10:05:10.385] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:06:32.337] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:06:37.506] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:11:48.594] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:15:10.352] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:32.533] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:33.519] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:35.458] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:36.327] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:37.104] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:37.927] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:15:38.497] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:19:51.533] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T10:26:30.395] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:26:46.905] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T10:26:50.859] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T10:26:50.938] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T10:26:54.439] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T10:31:02.368] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:31:07.218] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:31:16.521] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:31:17.447] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:33:46.919] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T10:45:21.266] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T10:45:24.473] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T10:45:24.555] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T10:45:27.187] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:13:11.642] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:24:47.652] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:24:48.800] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:25:33.917] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:25:36.297] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:25:36.410] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:25:38.153] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:25:42.096] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T11:25:42.194] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T11:25:43.564] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:26:06.061] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:26:06.156] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:26:09.141] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:26:11.411] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T11:26:11.467] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T11:26:13.115] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:27:08.672] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:27:08.765] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:27:10.593] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:28:05.768] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:28:05.858] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:28:07.522] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:32:21.303] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:32:21.385] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:32:24.648] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:34:17.169] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T11:34:17.263] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T11:34:19.877] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:37:59.877] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:38:01.115] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:39:17.786] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:40:21.110] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:42:50.259] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:45:03.281] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:45:05.889] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:45:15.090] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:45:22.440] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:46:02.888] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.093] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.108] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.116] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.122] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.129] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.136] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.170] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.177] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.183] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.189] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.195] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.202] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.208] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.215] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.222] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.229] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.236] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.241] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.386] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.398] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.409] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.419] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.427] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.434] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.440] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.446] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.453] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.461] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.466] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.472] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.478] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.483] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.490] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.495] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.500] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.506] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.511] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:46.516] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.411] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.419] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.426] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.434] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.440] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.446] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.454] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.462] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.468] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.474] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.480] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.486] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.494] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.501] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.506] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.512] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.518] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.524] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.529] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:50.535] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.441] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.450] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.456] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.462] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.469] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.475] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.485] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.491] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.498] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.504] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.511] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.517] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.523] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.529] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.535] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.541] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.547] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.553] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.559] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:52.565] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.607] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.622] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.628] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.640] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.649] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.657] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.667] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.674] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.681] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.688] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.695] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.703] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.711] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.721] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.728] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.735] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.742] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.748] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.755] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:48:57.761] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:49:21.235] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:52:41.117] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:52:48.531] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:52:51.486] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T11:53:32.414] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:53:33.434] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T11:53:40.543] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T12:09:34.720] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:17:57.305] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:18:10.430] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T12:18:19.753] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T12:27:02.542] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T12:30:11.939] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T12:37:00.593] [ERROR] Ace - Pool is closed. by user with team_id = 1
+[2020-05-25T12:43:31.033] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:44:14.935] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:47:29.857] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:47:30.847] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:47:31.749] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:47:32.595] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:52:21.186] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:52:22.153] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:54:38.212] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T12:54:39.181] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:05:37.311] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T13:05:45.793] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T13:05:58.821] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T13:07:05.817] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T13:07:11.366] [WARN] Ace - Incorrect login = andry.kovalenko@gmail.com ip= ::1
+[2020-05-25T13:08:32.204] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:08:37.042] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:09:44.364] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:10:17.300] [ERROR] Ace - Can't add new command when connection is in closed state
+[2020-05-25T13:10:17.373] [ERROR] Ace - Can't add new command when connection is in closed state
+[2020-05-25T13:11:15.495] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:11:24.852] [INFO] Ace - Getting users with team_id = 3 by user with team_id = 1
+[2020-05-25T13:11:28.933] [INFO] Ace - Inserted new transaction with team_id = 3 by user with team_id = 1
+[2020-05-25T13:11:29.033] [INFO] Ace - Updated team balance with team_id = 3 by user with team_id = 1
+[2020-05-25T13:11:29.053] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:12:19.924] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:13:22.332] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:14:52.323] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:17:15.853] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:17:30.491] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:18:54.813] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:19:06.550] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T13:19:07.940] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T13:19:08.582] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T13:35:11.775] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:36:55.934] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:37:32.694] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:38:16.032] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:39:54.758] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:40:45.937] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T13:41:44.550] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:43:20.992] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:44:17.305] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:45:00.456] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:45:18.404] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:45:46.501] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:53:45.195] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T13:58:56.718] [INFO] Ace - Inserted new transaction with team_id = 2 by user with team_id = 1
+[2020-05-25T13:58:56.793] [INFO] Ace - Updated team balance with team_id = 2 by user with team_id = 1
+[2020-05-25T13:58:56.817] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:00:34.767] [ERROR] Ace - This socket has been ended by the other party
+[2020-05-25T14:00:34.854] [ERROR] Ace - Can't add new command when connection is in closed state
+[2020-05-25T14:00:37.028] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:00:40.977] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:00:53.726] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:01:05.999] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:01:12.809] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:02:06.081] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:02:06.952] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:02:56.023] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:04:08.271] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T14:07:10.970] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T14:07:11.931] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:12.855] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:13.524] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:13.726] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:13.888] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.070] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.239] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.393] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.554] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.711] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:14.878] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:15.043] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:07:15.268] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:09:24.074] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:12:07.120] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:12:50.308] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T14:14:00.055] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:14:36.467] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T14:16:08.633] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:09.425] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:09.679] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:09.844] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:10.009] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:10.196] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:16:10.407] [ERROR] Ace - Can't add new command when connection is in closed state by user with team_id = 1
+[2020-05-25T14:17:41.326] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:18:07.898] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:18:10.845] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:18:56.644] [INFO] Ace - Inserted new transaction with team_id = 2 by user with team_id = 1
+[2020-05-25T14:18:56.745] [INFO] Ace - Updated team balance with team_id = 2 by user with team_id = 1
+[2020-05-25T14:18:56.776] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T14:18:59.813] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T14:18:59.911] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T16:42:33.149] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T16:42:33.274] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T16:43:05.599] [ERROR] Ace - This socket has been ended by the other party
+[2020-05-25T16:43:05.654] [ERROR] Ace - Can't add new command when connection is in closed state
+[2020-05-25T16:43:31.318] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T16:43:31.406] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T16:45:07.921] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T16:45:08.010] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T16:45:09.027] [INFO] Ace - Getting info about transaction of user with team_id = 2 by user with team_id = 1
+[2020-05-25T16:45:09.089] [INFO] Ace - Getting info about sum of users with team_id = 2 by user with team_id = 1
+[2020-05-25T16:47:10.384] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:50:08.065] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:50:24.870] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:51:37.778] [ERROR] Ace - This socket has been ended by the other party by user with team_id = 1
+[2020-05-25T16:52:00.640] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:54:43.673] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:57:53.282] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T16:57:53.355] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T16:59:34.871] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T16:59:34.959] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T16:59:36.296] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T16:59:49.924] [INFO] Ace - Getting users with team_id = 3 by user with team_id = 1
+[2020-05-25T17:00:21.415] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T17:04:16.264] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T17:13:35.219] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T17:13:36.790] [INFO] Ace - Getting users with team_id = 2 by user with team_id = 1
+[2020-05-25T17:13:38.500] [INFO] Ace - Getting users with team_id = 3 by user with team_id = 1
+[2020-05-25T17:15:37.551] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T17:16:53.292] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T17:16:55.663] [INFO] Ace - Getting users with team_id = 2 by user with team_id = 1
+[2020-05-25T17:23:16.898] [INFO] Ace - Getting users with team_id = 2 by user with team_id = 1
+[2020-05-25T17:23:29.132] [INFO] Ace - Getting users with team_id = 2 by user with team_id = 1
+[2020-05-25T17:25:37.927] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T17:25:38.048] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T17:46:22.039] [INFO] Ace - Getting info about transaction of user with team_id = 3 by user with team_id = 1
+[2020-05-25T17:46:22.154] [INFO] Ace - Getting info about sum of users with team_id = 3 by user with team_id = 1
+[2020-05-25T20:13:43.223] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-25T20:16:11.950] [INFO] Ace - Get info about teams by user with team_id = 1
+[2020-05-26T11:41:02.436] [INFO] Ace - Trying to get not existed route /favicon.ico ip= ::1

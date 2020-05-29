@@ -3,8 +3,10 @@ var express = require('express');
 var path = require('path');
 const logger = require('morgan');
 var cookieParser = require('cookie-parser');
-var mysql = require('mysql');
-var connection  = require('./lib/db');
+const log = require('./routes/log');
+
+//var mysql = require('mysql2');
+//var connection  = require('./lib/db');
 
 var flash = require('express-flash');
 var session = require('express-session');
@@ -43,6 +45,7 @@ app.use('/team',userRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+    log.info("Trying to get not existed route "+ req.url+" ip= "+req.connection.remoteAddress);
     next(createError(404));
 });
 

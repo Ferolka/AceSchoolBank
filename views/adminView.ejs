@@ -3,12 +3,19 @@
 <head>
     <meta charset="utf-8">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Admin page</title>
 </head>
-<body class="container" style="margin-top: 70px;">
-
+<body >
+<main >
+    <div class="container">
 <% if (messages.success) { %>
     <div class="alert alert-success" role="alert"><%- messages.success %></div>
 <% } %>
@@ -16,29 +23,33 @@
 <% if (messages.error) { %>
     <div class="alert alert-danger" role="alert"><%- messages.error %></div>
 <% } %>
-
+    <div class="col-md-10 offset-md-1">
+        <h1 class="text-center">КЛІЄНТ-БАНК ШКОЛИ</h1>
+        <h3 class="text-center text-secondary">система дистанційного управління рахунками</h3>
+        <img class="img-fluid col-md-6 offset-md-3" src="../images/ace.jpg" alt="Ace logo">
+    </div>
 <div class="card">
     <div class="card-header">
         <ul class="nav nav-pills w-100">
             <li class="nav-pill active">
-                <a class="nav-link">Users</a>
+                <a class="nav-link">КОМАНДИ</a>
             </li>
             <li class="nav-pill ml-auto">
-                <a class="nav-link active" href="/aroma/add">Add user?</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#transactionForm" onclick="getUsers(<%=data[0].team_id%>)">Нова Транзакція</button>
             </li>
         </ul>
     </div>
     <div class="card-body">
 
         <% if(data.length) { %>
-            <table class="table">
+            <table class="table" id="teamTable">
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Team name</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Balance</th>
-                    <th width="200px">Action</th>
+                    <th scope="col">НАЗВА</th>
+                    <th scope="col">ЛОГІН</th>
+                    <th scope="col">БАЛАНС</th>
+                    <th scope="col">ДІЯ</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -49,7 +60,7 @@
                         <td><%= data[i].team_email%></td>
                         <td><%= data[i].team_balance%></td>
                         <td>
-                            <a class="btn btn-success edit" href="/team/<%=data[i].team_id%>">Show</a>
+                            <a class="btn btn-success edit" href="/team/<%=data[i].team_id%>">ДЕТАЛІ</a>
                             <!--<a class="btn btn-danger delete" onclick="return confirm('Are You sure?')" href="../user/delete/<%=data[i].user_id%>">Delete</a>-->
                         </td>
                     </tr>
@@ -60,70 +71,93 @@
 
         <!-- if result is empty -->
         <% if(!data.length) { %>
-            <p class="text-center">No users found!</p>
+            <p class="text-center">Жодної команди не знайдено!</p>
         <% } %>
 
     </div>
 </div>
+
+
+
 <!--Add transaction -->
-<div class="container">
+<div id="transactionForm" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Транзакція</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+<!--Inside the body-->
+        <div class="container">
 
     <% if (messages.error) { %>
         <div class="alert alert-danger" role="alert"><%- messages.error %></div>
     <% } %>
 
-    <div class="card">
-        <div class="card-header">
-            Add Transaction
-        </div>
-        <div class="card-body">
+
+
+
             <form action="admin/addTransaction" method="post">
                 <div class="form-group">
-                    <label for="transaction_user">Transaction team:</label>
+                    <label for="transaction_user">Команда:</label>
                     <select id="team" class="form-control" id="transaction_user" name="transaction_team" aria-describedby="typeIdHelper" onchange="getUsers()" required>
                         <% for(var i = 0; i< data.length; i++) { %>
 
-                        <option value="<%=data[i].team_id%>"><%=data[i].team_id%> Name: <%=data[i].team_name%></option>
+                        <option value="<%=data[i].team_id%>"><%=data[i].team_id%> Назва: <%=data[i].team_name%></option>
                         <%}%>
                     </select>
-                    <small id="typeIdHelper" class="form-text text-muted">Required.</small>
+                    <small id="typeIdHelper" class="form-text text-muted">Обов'язково.</small>
                 </div>
 
 
                 <div class="form-group">
-                    <label>Transaction type:</label>
+                    <label>Тип транзакції:</label>
                     <select class="form-control" id="transaction_type" name="transaction_type" required>
-                        <option value=1>Debit</option>
-                        <option value=0>Credit</option>
+                        <option value=0>Дебет</option>
+                        <option value=1>Кредит</option>
                         <!--<option value=null>Unknown</option>-->
                     </select>
-                    <small id="typeIdHelper" class="form-text text-muted">Required.</small>
+                    <small id="typeIdHelper" class="form-text text-muted">Обов'язково.</small>
                 </div>
                 <div class="form-group">
-                    <label>Amount:</label>
+                    <label>Сума:</label>
                     <input type="number" min="1" step="1" max="100000" class="form-control" aria-describedby="priceHelper" name="transaction_amount" autocomplete="off" required>
-                    <small id="priceHelper" class="form-text text-muted">Required.</small>
+                    <small id="priceHelper" class="form-text text-muted">Обов'язково.</small>
                 </div>
                 <div class="form-group">
-                    <label for="transaction_user">Transaction user:</label>
+                    <label for="transaction_user">Студент:</label>
                     <select id="users" class="form-control" id="transaction_user" name="transaction_user" aria-describedby="typeIdHelper" >
-                        <option value=null>No user</option>
+                        <option value=null>Загальна транзакція</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Notes:</label>
-                    <input type="text" class="form-control" name="transaction_note" autocomplete="off" required>
-                    <small id="typeIdHelper" class="form-text text-muted">Required.</small>
+                    <label>Нотатки:</label>
+                    <input type="text" class="form-control" name="transaction_note" autocomplete="off" maxlength="45" required>
+                    <small id="typeIdHelper" class="form-text text-muted">Обов'язково.</small>
                 </div>
                 <div class="form-group">
-                    <input type="submit" class="btn btn-info" value="Add"/>
+                    <input type="submit" class="btn btn-info" value="Додати"/>
                 </div>
             </form>
+
+
+
+</div>
+<!--end of body-->
+
+</div>
         </div>
-
+    </div>
 </div>
-</div>
 
+
+    </div>
+</main>
+<hr class="divider">
+<footer>
+    <p class="text-center">For future ACE businessmen and  businesswomen 2020</p>
+</footer>
 </body>
 <script>
     function getUsers() {
@@ -141,7 +175,7 @@
                 document.getElementById("users").innerHTML = "";
                 let opt = document.createElement("option");
                 opt.setAttribute("value", null);
-                var text = document.createTextNode("No user");
+                var text = document.createTextNode("Загальна транзакція");
                 opt.appendChild(text);
                 document.getElementById("users").appendChild(opt);
                 for(let i=0; i<data.length;++i)
@@ -157,5 +191,8 @@
             }
         });
     }
+    $(document).ready(function () {
+        $('#teamTable').DataTable();
+    });
 </script>
 </html>

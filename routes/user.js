@@ -1,16 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const dbConn  = require('../lib/db');
+var dbConn  = require('../lib/db');
 const auth = require('./authentification');
+const log = require('./log');
 
 
 router.get('/(:team_id)',auth,  function(req, res, next) {
-    let team_id = req.params.team_id;
-    if (req.team.status !== 1) {
-
-    if (req.team.team_id != team_id) {
-        return res.status(403).send("Forbidden");
-    }
+    let team_id = parseInt(req.params.team_id);
+    if (req.team.status !== 1&&req.team.team_id !== team_id) {
         return res.status(403).send("Forbidden");
     }
 
@@ -23,37 +20,37 @@ router.get('/(:team_id)',auth,  function(req, res, next) {
                 'where t.team_id = ' + team_id,function(err,rows)     {
 
                 if(err) {
+                    log.error(err.message);
                     req.flash('error', err.message);
 
-                    res.render('userView.ejs',{data:''});
+                    res.render('userView.ejs',{data:'', team_id:team_id, admin:req.team.status});
                 } else {
-                    res.render('userView.ejs',{data:rows,team_id:team_id});
+                    log.info("Getting info about transaction of user with team_id = "+team_id+" by user with team_id = "+req.team.team_id );
+                    res.render('userView.ejs',{data:rows,team_id:team_id, admin:req.team.status});
                 }
             });
             //res.render('adminView.ejs',{data:rows});
 
 });
 router.get('/(:team_id)/sum',auth,  function(req, res, next) {
-    let team_id = req.params.team_id;
-    if (req.team.status !== 1) {
-
-        if (req.team.team_id != team_id) {
-            return res.status(403).send("Forbidden");
-        }
+    let team_id = parseInt(req.params.team_id);
+    if (req.team.status !== 1&&req.team.team_id !== team_id) {
         return res.status(403).send("Forbidden");
     }
 
     dbConn.query('Select sum(transaction_amount) as sum,user_name\n' +
         'from transactions\n' +
         'inner join users on user_id=transaction_user\n' +
-        'where transaction_type = 1 And transaction_team = '+team_id+'\n' +
+        'where transaction_type = 0 And transaction_team = '+team_id+'\n' +
         'Group by transaction_user',function(err,rows)     {
 
         if(err) {
+            log.error(err.message);
             req.flash('error', err.message);
 
             res.send({sum:''});
         } else {
+            log.info("Getting info about sum of users with team_id = "+team_id+" by user with team_id = "+req.team.team_id );
             res.send({sum:rows});
         }
     });
